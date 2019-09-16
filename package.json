@@ -1,0 +1,25 @@
+{
+  "name": "express-multer-mock-storage",
+  "version": "0.0.1",
+  "description": "By using this throttled dummy storage you can slow down a file uploading to debug the ajax thing.",
+  "main": "src/index.js",
+  "author": "ladjzero@gmail.com",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "test": "jest",
+    "lint": "eslint src test"
+  },
+  "devDependencies": {
+    "eslint": "5",
+    "eslint-plugin-jest": "^22.17.0",
+    "eslint-plugin-node": "^10.0.0",
+    "express": "^4.17.1",
+    "jest": "^24.9.0",
+    "multer": "^1.4.2",
+    "supertest": "^4.0.2"
+  },
+  "peerDependencies": {
+    "multer": "^1.4.2"
+  }
+}
