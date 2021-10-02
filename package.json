@@ -2,7 +2,7 @@
   "name": "express-multer-mock-storage",
   "version": "0.0.1",
   "description": "By using this throttled dummy storage you can slow down a file uploading to debug the ajax thing.",
-  "main": "src/index.js",
+  "main": "src/storage.js",
   "author": "ladjzero@gmail.com",
   "license": "MIT",
   "private": false,
